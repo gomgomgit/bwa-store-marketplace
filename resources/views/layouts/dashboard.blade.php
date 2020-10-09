@@ -138,7 +138,7 @@
                       <div class="cart-badge">{{ $cartCount }}</div>
                     </a>
                     @else
-                    <a href="{{ route('login') }}">
+                    <a href="{{ route('cart') }}" class="nav-link d-inline-block mt-2">
                       <img src="/images/icon-cart-empty.svg" alt="" />
                     </a>
                     @endif

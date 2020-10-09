@@ -16,7 +16,7 @@ class ChangeFieldNullableUsersTable extends Migration
         Schema::table('users', function (Blueprint $table) {
             $table->longText('address_one')->nullable()->change();
             $table->longText('address_two')->nullable()->change();
-            $table->integer('provincies_id')->nullable()->change();
+            $table->integer('provinces_id')->nullable()->change();
             $table->integer('regencies_id')->nullable()->change();
             $table->integer('zip_code')->nullable()->change();
             $table->string('country')->nullable()->change();
@@ -37,7 +37,7 @@ class ChangeFieldNullableUsersTable extends Migration
         Schema::table('users', function (Blueprint $table) {
             $table->longText('address_one')->nullable(false)->change();
             $table->longText('address_two')->nullable(false)->change();
-            $table->integer('provincies_id')->nullable(false)->change();
+            $table->integer('provinces_id')->nullable(false)->change();
             $table->integer('regencies_id')->nullable(false)->change();
             $table->integer('zip_code')->nullable(false)->change();
             $table->string('country')->nullable(false)->change();

@@ -92,6 +92,7 @@ data-aos="fade-up"
                         <div class="product-title">Province</div>
                         <div class="product-subtitle">
                             {{ App\Models\Province::find($transaction->transaction->user->provinces_id)->name }}
+                            {{ App\Models\Province::find($transaction->transaction->user->provinces_id)->name }}
                         </div>
                         </div>
                         <div class="col-12 col-md-6">

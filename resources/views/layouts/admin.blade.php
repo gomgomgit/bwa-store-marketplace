@@ -111,7 +111,7 @@
                         alt=""
                         class="rounded-circle mr-2 profile-picture"
                       />
-                      Hi, Angga
+                      Hi, {{ Auth::user()->name }}
                     </a>
                     <div class="dropdown-menu">
                       {{-- <a href="/dashboard.html" class="dropdown-item"
